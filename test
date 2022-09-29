@@ -1,0 +1,79 @@
+<main>
+        <section class="thumbSection">
+            <h2 class="thumbTitle">Treinding Now</h2>
+            <!-- Slider main container -->
+<div class=" thumbTiles swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide">
+        <a class="thumbTile" href="#">
+            <img class="thumbTile__image" src="/img/Thor-love-and-thunder.webp" alt="">
+        </a>
+      </div>
+      <div class="swiper-slide">
+        <a class="thumbTile" href="#">
+            <img class="thumbTile__image" src="/img/Stargirl.webp" alt="">
+        </a>
+      </div>
+      <div class="swiper-slide">
+        <a class="thumbTile" href="#">
+            <img class="thumbTile__image" src="/img/sggkh+[[lxx_9_6002_66_8_muochl_mvg[wmn[zkr[e3[C805vQhtDYWV7zJyzMwnXCTFK_B[ZZZZYx]X7jTPMdvfq3TJUJceXwVU40ZOyBWcitv3VzU8oeQfyYhSiSoDwXZD1jnjBcxZ637udhwDkTKnUYsVArtxZ5yGcw5.jpg" alt="">
+        </a>
+      </div>
+      <div class="swiper-slide">
+        <a class="thumbTile" href="#">
+            <img class="thumbTile__image" src="/img/sggkh+[[lxx_9_6002_66_8_muochl_mvg[wmn[zkr[e3[C805vQhtDYWV7zJyzMwnXCTFK_B[ZZZZYx]X7jTPMdvfq3TJUJceXwVU40ZOyBWcitv3VzU8oeQfyYhSiSoDwXZD1jnjBcxZ637udhwDkTKnUYsVArtxZ5yGcw5.jpg" alt="">
+        </a>
+      </div>
+      <div class="swiper-slide">
+        <a class="thumbTile" href="#">
+            <img class="thumbTile__image" src="/img/sggkh+[[lxx_9_6002_66_8_muochl_mvg[wmn[zkr[e3[C805vQhtDYWV7zJyzMwnXCTFK_B[ZZZZYx]X7jTPMdvfq3TJUJceXwVU40ZOyBWcitv3VzU8oeQfyYhSiSoDwXZD1jnjBcxZ637udhwDkTKnUYsVArtxZ5yGcw5.jpg" alt="">
+        </a>
+      </div>
+
+    </div>
+ 
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+        </section>
+
+      </main>
+
+      <script>
+        const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  spaceBetween: 7,
+  slidesPerView: 2,
+  freeMode: true,
+  loopAdditionalSlides: 5,
+  speed: 500,
+  loop: true,
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+   breakpoints: {
+    //when window width is >= 640px
+    640:{
+        slidesPerView: 2,
+        slidesPerGroup: 2,
+        freeMode: false
+    }
+   }
+});
+      </script>
+
+
+
+</body>
+</html>
+
+
+
+/css
+
